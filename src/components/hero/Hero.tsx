@@ -9,15 +9,15 @@ const Hero = () => {
         <div className="hero">
             <div className="hero__navbar">
                 <div className="hero__navbar-logo">
-                    <img src="src/assets/images/logo.png" alt="logo" />
+                    <img src="../../assets/images/logo.png" alt="logo" />
                     <p>Green<span>forge</span></p>
                 </div>
                 <div className="hero__navbar-searchbox">
                     <input type="text" name="inbox" placeholder="What are you rooting for?"/>
-                    <FontAwesomeIcon icon={faSearch} />
+                    <FontAwesomeIcon icon={faSearch} className="hero__navbar-searchbox-icon" />
                 </div>
                 <div className="hero__navbar-menu">
-                    <div className="hero__navbar-menu-item menu-item">Home</div>
+                    <div className="hero__navbar-menu-item">Home</div>
                     <div className="hero__navbar-menu-item">Shop</div>
                     <div className="hero__navbar-menu-item">Contact Us</div>
                     <div className="hero__navbar-menu-item">About Us</div>
@@ -36,7 +36,7 @@ const Hero = () => {
                     <div className="hero__content-button">Shop Now</div>
                 </div>
                 <div className="hero__content-picture">
-                    <img src="src/assets/images/content-plant.png" alt="Random Plant" />
+                    <img src="../../assets/images/contentPlant.png" alt="Random Plant" />
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@
     padding: 0;
     height: 100vh;
     position: relative;
+    background-color: #EDEDED;
 }
 
 .hero__navbar {
@@ -15,14 +16,44 @@
     gap: 60px;
 }
 
+.hero__navbar-logo p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.hero__navbar-logo span {
+    color: var(--primary-color);
+}
+
+.hero__navbar-searchbox {
+    position: relative;
+    flex: 1;
+}
+
 .hero__navbar-searchbox input {
     width: 356px;
     height: 39px;
     padding: 10px 20px 10px 20px;
+    border: 1px solid #001F0080;
     border-radius: 5px 0px 0px 0px;
+    background: transparent;
 }
 
-.hero__navbar-searchbox i {
+.hero__navbar-searchbox input[type="text"] {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.2px;
+}
+
+.hero__navbar-searchbox input:focus {
+    outline: none;
+}
+
+.hero__navbar-searchbox-icon {
+    position: absolute;
+    top: 10px;
+    right: 2px;
     width: 16px;
     height: 16px;
     padding: 3.33px 2.67px 2.67px 3.33px;
@@ -30,7 +61,7 @@
 
 .hero__navbar-menu {
     display: flex;
-    flex: 3;
+    flex: 2;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -38,11 +69,24 @@
 .hero__navbar-menu-item {
     margin: auto;
     padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.hero__navbar-menu-item:active {
+    color: var(--primary-color);
 }
 
 .hero__content {
     display: flex;
     position: absolute;
+    background-image: url('../../assets/images/logoOutline.png'); /* Adjust the path as necessary */
+    background-size: cover; /* Makes sure the background image covers the entire element */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    width: 100%;
+    height: calc(100vh - 100px);
 }
 
 .hero__content-text {
@@ -57,7 +101,6 @@
 }
 
 .hero__content-text h1 {
-    font-family: Lato;
     font-size: 48px;
     font-weight: 700;
     line-height: 57.6px;
@@ -66,11 +109,26 @@
 }
 
 .hero__content-text span {
-    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
 }
 
 .hero__content-text p {
-    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hero__content-button {
+    width: 114px;
+    height: 39px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: var(--primary-color);
 }
 
 .hero__content-picture {
