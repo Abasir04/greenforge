@@ -16,6 +16,13 @@
     gap: 60px;
 }
 
+.hero__navbar-logo {
+    background-image: url('../../assets/images/logo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 .hero__navbar-logo p {
     font-size: 16px;
     font-weight: 500;
@@ -132,11 +139,14 @@
 }
 
 .hero__content-picture {
+    background-image: url('../../assets/images/contentPlant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     position: absolute;
-    width: 554.36px;
-    height: 693px;
-    top: 96px;
-    left: 785px;
-
+    width: 394px;
+    height: 595px;
+    top: -9px;
+    left: 755px;
 }
 

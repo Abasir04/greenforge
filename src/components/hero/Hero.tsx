@@ -9,7 +9,6 @@ const Hero = () => {
         <div className="hero">
             <div className="hero__navbar">
                 <div className="hero__navbar-logo">
-                    <img src="../../assets/images/logo.png" alt="logo" />
                     <p>Green<span>forge</span></p>
                 </div>
                 <div className="hero__navbar-searchbox">
@@ -35,9 +34,7 @@ const Hero = () => {
                     </p>
                     <div className="hero__content-button">Shop Now</div>
                 </div>
-                <div className="hero__content-picture">
-                    <img src="../../assets/images/contentPlant.png" alt="Random Plant" />
-                </div>
+                <div className="hero__content-picture"></div>
             </div>
         </div>
     );

@@ -1,0 +1,118 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: #FBFBFB;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.categories__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.categories__content-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 39px;
+    gap: 565px;
+}
+
+.categories__content-bar-menu {
+    display: flex;
+    align-items: center;
+    height: 26px; 
+    gap: 5px;
+}
+
+.categories__content-bar-menu-item {
+    height: 26px;
+    padding: 0px 7px;
+}
+
+.categories__content-bar-menu-item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.categories__content-bar-timer {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 30px;
+    border: 1px solid #659E38;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.categories__content-images {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+}
+
+.categories__content-images-side {
+    background-image: url('../../assets/images/categoriesSide.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 548px;
+    padding: 504px 0px 0px 0px;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+}
+
+.categories__content-images-side-text {
+    width: 400px;
+    height: 134px;
+    padding: 50px 93px;
+    gap: 10px;  
+    background: #001F0080;
+}
+
+.categories__content-images-side-text h3 {
+    width: 214px;
+    height: 34px;
+    text-align: center; 
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.categories__content-images-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.categories__content-images-main-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+.categories__content-images-main-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+.plant {
+    background: #FBFBFB;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+    width: 250px;
+    height: auto;
+}
+
+.categories__button {
+    height: 39px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: var(--primary-color);
+}
