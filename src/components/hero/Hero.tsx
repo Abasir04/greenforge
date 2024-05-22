@@ -9,6 +9,7 @@ const Hero = () => {
         <div className="hero">
             <div className="hero__navbar">
                 <div className="hero__navbar-logo">
+                    <div className="hero__navbar-logo-img"></div>
                     <p>Green<span>forge</span></p>
                 </div>
                 <div className="hero__navbar-searchbox">
@@ -16,11 +17,11 @@ const Hero = () => {
                     <FontAwesomeIcon icon={faSearch} className="hero__navbar-searchbox-icon" />
                 </div>
                 <div className="hero__navbar-menu">
-                    <div className="hero__navbar-menu-item">Home</div>
+                    <div className="hero__navbar-menu-item active">Home</div>
                     <div className="hero__navbar-menu-item">Shop</div>
                     <div className="hero__navbar-menu-item">Contact Us</div>
                     <div className="hero__navbar-menu-item">About Us</div>
-                    <div className="hero__navbar-cart-icon"><FontAwesomeIcon icon={faShoppingCart} /></div>
+                    <div className="hero__navbar-menu-item"><FontAwesomeIcon icon={faShoppingCart} /></div>
                 </div>
             </div>
             <div className="hero__content">

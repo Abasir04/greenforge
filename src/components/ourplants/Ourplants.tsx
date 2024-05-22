@@ -10,12 +10,6 @@ const plantTypes = [
     'Indoor Plants'
 ]
 
-const plantImg = [
-    "../../assets/images/snakePlant.png",
-    "../../assets/images/cactusPlant.png",
-    "../../assets/images/zzPlant.png"
-]
-
 const Ourplants = () => {
     return (
         <div className="ourplants">
@@ -27,19 +21,21 @@ const Ourplants = () => {
             <div className="ourplants__content">
                 <div className="ourplants__types">
                     {plantTypes.map((plantType, index) => (
-                        <div key={index} className="ourplants__type-item">
-                            {plantType}
-                        </div>
+                        index === 0 ? (
+                            <div key={index} className="ourplants__type-item active">
+                                {plantType}
+                            </div>
+                        ) : (
+                            <div key={index} className="ourplants__type-item">
+                                {plantType}
+                            </div>
+                        )
                     ))}
                 </div>
-                <div className="ourplants__images">
-                    <div className="ourplants__images-menu">
-                        {plantImg.map((imgSrc, index) => (
-                            <div key={index} className="ourplants__images-menu-item">
-                                <img src={imgSrc} alt={`Plant ${index + 1}`} />
-                            </div>
-                        ))}
-                    </div>
+                <div className="ourplants__images-menu">
+                    <div className="ourplants__images-menu-item-1 plant"></div>
+                    <div className="ourplants__images-menu-item-2 plant"></div>
+                    <div className="ourplants__images-menu-item-3 plant"></div>
                 </div>
             </div>
             <div className="ourplants__images-next-buttons"></div>

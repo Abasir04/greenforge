@@ -40,6 +40,12 @@
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+    color: var(--primary-color);
+}
+
+.active h4{
+    border-bottom: 2px solid #659E38;
+    color: #001F00;
 }
 
 .categories__content-bar-timer {
@@ -97,14 +103,55 @@
     gap: 3px;
 }
 
+.categories__content-images-main-top-item1 {
+    background-image: url('../../assets/images/snakePlant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.categories__content-images-main-top-item2 {
+    background-image: url('../../assets/images/peaceLily.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.categories__content-images-main-top-item3 {
+    background-image: url('../../assets/images/monsteraPlant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 .categories__content-images-main-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3px;
 }
 
+.categories__content-images-main-bottom-item1 {
+    background-image: url('../../assets/images/zzPlant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.categories__content-images-main-bottom-item2 {
+    background-image: url('../../assets/images/cactusPlant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.categories__content-images-main-bottom-item3 {
+    background-image: url('../../assets/images/scindapusPictus.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 .plant {
-    background: #FBFBFB;
     box-shadow: 0px 2px 4px 0px #0000001F;
     width: 250px;
     height: auto;

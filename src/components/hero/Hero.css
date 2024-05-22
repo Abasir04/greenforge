@@ -16,17 +16,20 @@
     gap: 60px;
 }
 
-.hero__navbar-logo {
+.hero__navbar-logo-img {
     background-image: url('../../assets/images/logo.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    width: 100px;
+    height: 40px;
 }
 
 .hero__navbar-logo p {
     font-size: 16px;
     font-weight: 500;
     line-height: 19.2px;
+    margin: 0px 11px;
 }
 
 .hero__navbar-logo span {
@@ -35,7 +38,6 @@
 
 .hero__navbar-searchbox {
     position: relative;
-    flex: 1;
 }
 
 .hero__navbar-searchbox input {
@@ -68,20 +70,20 @@
 
 .hero__navbar-menu {
     display: flex;
-    flex: 2;
     align-items: center;
     justify-content: space-evenly;
+    width: 537px;
 }
 
 .hero__navbar-menu-item {
     margin: auto;
     padding: 10px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 530;
     line-height: 19.2px;
 }
 
-.hero__navbar-menu-item:active {
+.active {
     color: var(--primary-color);
 }
 
