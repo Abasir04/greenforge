@@ -1,0 +1,92 @@
+.tip {
+    background-color: var(--secondary-backgroundColor);
+    height: 100vh;
+    padding: 30px 100px;
+}
+
+.tips__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tips__container-header {
+    margin-bottom: 5px;
+}
+
+.tips__container-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+.tips__container-header span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+.tips__container-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+
+.tips__container-content-side {
+    box-shadow: 0px 2px 2px 0px #001F001F;
+}
+
+.tips__container-content-side-video {
+    height: 243px;
+    background: #001F004D;
+}
+
+.tips__container-content-side-text {
+    padding: 20px;
+}
+
+.tips__container-content-side-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #001F00;
+    width: 238px;
+    height: 24px;
+    margin-bottom: 7px;
+}
+
+.side-text-icon {
+    color: yellow;
+    margin: 3px 0px;
+}
+
+.tips__container-content-side-text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: left;
+    margin: 6px 0px;
+}
+
+.side-text-button {
+    width: 168px;
+    height: 39px;
+    padding: 10px 20px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    margin: 13px auto;
+}
+
+.tips__container-content-main {
+    background-image: url('../../assets/images/care.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 799px;
+    height: 548px;
+}

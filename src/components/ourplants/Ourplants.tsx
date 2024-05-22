@@ -1,8 +1,5 @@
 import React from 'react'
 import './Ourplants.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileButton } from "@fortawesome/free-solid-svg-icons";
-
 
 const plantTypes = [
     'Outdoor Plants',
